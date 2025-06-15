@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
         <div className="contact-content">
           <div className="contact-info">
             <h3>Let's Connect</h3>
-            <p>Feel free to reach out for collaborations or just a friendly hello</p>
+            <p>Feel free to reach out for collaborations or just a friendly hello :)</p>
             <div className="contact-details">
               <div className="contact-item">
                 <i className="fas fa-envelope"></i>
