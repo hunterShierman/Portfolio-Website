@@ -34,15 +34,11 @@ const Contact: React.FC = () => {
             <div className="contact-details">
               <div className="contact-item">
                 <i className="fas fa-envelope"></i>
-                <a href="mailto:your.email@example.com">your.email@example.com</a>
-              </div>
-              <div className="contact-item">
-                <i className="fas fa-phone"></i>
-                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                <a href="mailto:hshierman@gmail.com">hunter.shierman@gmail.com</a>
               </div>
               <div className="contact-item">
                 <i className="fas fa-map-marker-alt"></i>
-                <span>New York, USA</span>
+                <span>Toronto, Canada</span>
               </div>
             </div>
           </div>

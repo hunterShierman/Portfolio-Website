@@ -9,11 +9,11 @@ const Skills: React.FC = () => {
     },
     {
       title: 'Backend',
-      skills: ['Node.js', 'Express', 'Python', 'MongoDB', 'SQL', 'REST APIs']
+      skills: ['Node.js', 'Express', 'Python', 'Firebase', 'SQL (MySQL)', 'REST APIs']
     },
     {
       title: 'Tools & Others',
-      skills: ['Git', 'Docker', 'AWS', 'Jest', 'Webpack', 'Agile']
+      skills: ['Google Cloud', 'Docker', 'Microsoft Azure', 'Kubernetes', 'Webpack', 'Terraform']
     }
   ];
 

@@ -20,15 +20,15 @@ const About: React.FC = () => {
           <div className="about-details">
             <div className="detail-item">
               <h3>Education</h3>
-              <p>Bachelor's in Computer Science</p>
+              <p>Bachelor's in Computer Science & Minor in Spanish</p>
             </div>
             <div className="detail-item">
               <h3>Experience</h3>
-              <p>3+ years in Web Development</p>
+              <p>Analytics Engineer at Scotiabank</p>
             </div>
             <div className="detail-item">
               <h3>Location</h3>
-              <p>New York, USA</p>
+              <p>Toronto, Canada</p>
             </div>
           </div>
         </div>

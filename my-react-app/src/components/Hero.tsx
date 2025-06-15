@@ -12,17 +12,17 @@ const Hero: React.FC = () => {
           </div>
           <div className="hero-text">
             <h1>Hi, I'm <span className="highlight">Hunter Shierman</span></h1>
-            <h2>Software Engineer</h2>
-            <p>I create beautiful and functional web applications</p>
+            <h2>Analytics Engineer</h2>
+            <p>Currently working at Scotiabank building and maintaining data pipelines</p>
             <div className="cta-buttons">
               <a href="#projects" className="primary-btn">View My Work</a>
               <a href="#contact" className="secondary-btn">Contact Me</a>
             </div>
             <div className="social-links">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/hunterShierman" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/hunter-shierman-5a79892b1/" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
             </div>

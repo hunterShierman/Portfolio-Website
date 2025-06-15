@@ -1,31 +1,33 @@
 import React from 'react';
 import '../styles/Projects.css';
-
+import bookNestImage from '../assets/bookNest.png';
+import chatbotImage from '../assets/chatbot.png';
+import gymWeb from '../assets/gymWeb.png';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'E-commerce Platform',
-      description: 'A full-stack e-commerce platform built with React, Node.js, and MongoDB.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
-      image: '/project1.jpg',
-      liveLink: 'https://project1.com',
-      githubLink: 'https://github.com/yourusername/project1'
+      title: 'Online Library Platform',
+      description: 'A full-stack library platform that allows users to search for books and read them online.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Microsoft Azure', 'mySQL'],
+      image: bookNestImage,
+      liveLink: 'https://www.youtube.com/watch?v=SyOCbhsD6iU',
+      githubLink: 'https://github.com/hunterShierman/BookNest'
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates.',
-      technologies: ['React', 'Firebase', 'Material-UI', 'Redux'],
-      image: '/project2.jpg',
-      liveLink: 'https://project2.com',
-      githubLink: 'https://github.com/yourusername/project2'
+      title: 'AI Language Tutor',
+      description: 'An AI language tutor that uses natural language processing to help users learn a new language.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js'],
+      image: chatbotImage,
+      liveLink: 'https://www.youtube.com/watch?v=SjBt2FPR33M',
+      githubLink: 'https://github.com/hunterShierman/translatorBot'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'A weather dashboard that displays forecast data using external APIs.',
-      technologies: ['React', 'TypeScript', 'Weather API', 'Chart.js'],
-      image: '/project3.jpg',
-      liveLink: 'https://project3.com',
-      githubLink: 'https://github.com/yourusername/project3'
+      title: 'Health and Fitness Platform',
+      description: 'A fitness tracker website that allows users to track their workouts, progress, and nutrition.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js'],
+      image: gymWeb,
+      liveLink: 'https://huntershierman.github.io/fitness-website/home/test-home.html',
+      githubLink: 'https://github.com/hunterShierman/fitness-website'
     }
   ];
 
