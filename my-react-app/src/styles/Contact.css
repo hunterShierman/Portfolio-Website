@@ -1,0 +1,134 @@
+.contact {
+  background-color: white;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.contact-info {
+  text-align: left;
+  background-color: var(--content-bg);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--heading-color);
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  color: var(--heading-color);
+}
+
+.contact-item a,
+.contact-item span {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: var(--heading-color);
+}
+
+.contact-form {
+  background-color: var(--content-bg);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  transition: border-color 0.3s ease;
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--heading-color);
+}
+
+.submit-btn {
+  background-color: var(--heading-color);
+  color: var(--text-color);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: var(--hover-color);
+}
+
+@media (max-width: 768px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .contact-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-info p {
+    font-size: 1rem;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+  }
+} 
