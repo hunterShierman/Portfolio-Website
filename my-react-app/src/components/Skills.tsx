@@ -9,7 +9,7 @@ const Skills: React.FC = () => {
     },
     {
       title: 'Backend',
-      skills: ['Node.js', 'Express', 'Python', 'Firebase', 'SQL (MySQL)', 'REST APIs']
+      skills: ['Node.js', 'Express', 'Python', 'Firebase', 'SQL', 'REST APIs']
     },
     {
       title: 'Tools & Others',
